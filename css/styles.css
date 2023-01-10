@@ -22,8 +22,20 @@ body {
 /* Acá tengo los estilos del header */
 
 header {
+    display: flex;
     background: #115d84;
     padding: 10px 50px;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+
+#menu a {
+    margin-left: 30px;
+}
+
+#menu a:hover {
+    color: #28b7ff;
 }
 
 #logo-negocio {
