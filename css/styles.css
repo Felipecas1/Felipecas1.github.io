@@ -32,6 +32,7 @@ header {
 
 #menu a {
     margin-left: 30px;
+    color: white;
 }
 
 #menu a:hover {
@@ -129,4 +130,24 @@ main .social-icons #Twitter {
 
 main .social-icons #Github {
     background: #1e1f1f;
+}
+
+#contact-me {
+    margin-top: 50px;
+}
+
+#contact-me h2 {
+    text-align: center;
+    color: #0b5ca7;
+}
+
+#contact-number{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: black;
+}
+
+#contact-number:hover {
+    color: #28b7ff;
 }
