@@ -23,19 +23,21 @@ body {
 
 header {
     display: flex;
+    width: 100%;
     background: #115d84;
     padding: 10px 50px;
     justify-content: space-between;
-    color: white;
     align-items: center;
+    /* position: fixed;
+    top: 0%; */
 }
 
-#menu a {
+#nav a {
     margin-left: 30px;
     color: white;
 }
 
-#menu a:hover {
+#nav a:hover {
     color: #28b7ff;
 }
 
@@ -96,6 +98,24 @@ span {
 
 main {
     padding: 100px;
+}
+
+main #about-me {
+    margin-top: -30px;
+}
+
+main #projects ul {
+    padding: 20px 50px;
+}
+
+main .square-tittle {
+    margin-top: 30px;
+}
+
+main .tittle-descrip {
+    color: #28b7ff;
+    font-style: oblique;
+    margin-bottom: 20px;
 }
 
 main .social-icons {
